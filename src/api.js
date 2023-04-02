@@ -4,11 +4,12 @@ const makeIconURL = (iconId) =>
   `https://openweathermap.org/img/wn/${iconId}@2x.png`;
 
 const getFormattedWeatherData = async (city, units = "metric") => {
-  const URL = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&q=${city}&appid=${API_KEY}&units=${units}`;
+  const URL = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&id=524901&q=${city}&appid=${API_KEY}&units=${units}`;
 
   const data = await fetch(URL)
     .then((res) => res.json())
     .then((data) => data)
+    // console.log(data)
     
 
   const {
