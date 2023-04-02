@@ -1,11 +1,11 @@
-import hotBg from "./assets/hot.jpg";
-import coldBg from "./assets/cold.webp";
-import Descriptions from "./components/Descriptions";
+import hotBg from "../assets/hot.jpg";
+import coldBg from "../assets/cold.webp";
+import Descriptions from "./Descriptions";
 import { useEffect, useState } from "react";
-import { getFormattedWeatherData } from "./api";
+import { getFormattedWeatherData } from "../api";
 
 function App() {
-  const [city, setCity] = useState("Paris");
+  const [city, setCity] = useState("New Zealand");
   const [weather, setWeather] = useState(null);
   const [units, setUnits] = useState("metric");
   const [bg, setBg] = useState(hotBg);

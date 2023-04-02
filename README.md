@@ -1,3 +1,40 @@
+
+# Weather App
+
+A weather app that allows users to search for a city and get current weather
+conditions, along with a five-day forecast.
+
+## Author
+
+- [@Abhishek Kumar](https://www.github.com/abhikunu007)
+
+
+## Deployment
+
+To see this project live click below
+
+
+
+## Features
+
+- The app  has a search bar where users can enter a city name and search for weather data
+Upon searching, the app  displays the current weather conditions (temperature, weather
+icon, description) for the searched city.
+
+
+## Demo
+
+## Support
+
+For support, email abhishekkumaras007@gmail.com
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at abhishekkumaras007@gmail.com
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
